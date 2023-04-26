@@ -15,4 +15,4 @@ Any string resulting from applying these rules on the single axiom or a theorem 
 1. **xI** → **xIU**
 2. **MI** → **Mxx**
 3. **xIIIy** → **xUy**
-4. **xUUy** → **x**
+4. **xUUy** → **xy**
