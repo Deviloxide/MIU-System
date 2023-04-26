@@ -1,2 +1,2 @@
 # MIU-System
-An automated solver for Hofstadter’s formal system called [MIU](https://www.google.com).
+An automated solver for Hofstadter’s formal system called [MIU](https://en.wikipedia.org/wiki/MU_puzzle).
