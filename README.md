@@ -18,7 +18,7 @@ Any string resulting from applying these rules on the single axiom or a theorem 
 4. **xUUy** → **xy**
 
 ### Program Description
-The program takes in a desired theorem to be proven and the maximum number of steps to be performed on the axiom "MI" to find the provided theorem.
+The program takes in a desired theorem to be proven and the maximum number of steps to be performed on the axiom **MI** to find the provided theorem.
 ```
 Enter a MIU theorem:
 > MIUUI
