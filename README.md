@@ -16,3 +16,13 @@ Any string resulting from applying these rules on the single axiom or a theorem 
 2. **MI** → **Mxx**
 3. **xIIIy** → **xUy**
 4. **xUUy** → **xy**
+
+### Program Description
+The program takes in a desired theorem to be proven and the maximum number of steps to be performed on the axiom "MI" to find the provided theorem.
+```
+Enter a MIU theorem:
+> MIUUI
+Enter a number of steps:
+> 5
+The theorem is valid.
+```
