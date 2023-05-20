@@ -28,6 +28,25 @@ public class MIUSolver {
     public static boolean containsUU(String s) {
         return s.contains("UU");
     }
+    
+    /**
+     * A helper method to get the index of all occurrences of a substring in a string
+     * @param s the theorem
+     * @return an array of indices of all occurrences of the substring
+     */
+    public static int[] getIndices(String s, String sub) {
+        ArrayList<Integer> indices = new ArrayList<>();
+        int index = s.indexOf(sub);
+        while (index != -1) {
+            indices.add(index);
+            index = s.indexOf(sub, index + 1);
+        }
+        int[] result = new int[indices.size()];
+        for (int i = 0; i < indices.size(); i++) {
+            result[i] = indices.get(i);
+        }
+        return result;
+    }
 
     /**
      * A helper method to apply rule 1: If the theorem ends with "I", add "U" to the end
@@ -69,25 +88,6 @@ public class MIUSolver {
             return theorems;
         }
         return null;
-    }
-
-    /**
-     * A helper method to get the index of all occurrences of a substring in a string
-     * @param s the theorem
-     * @return an array of indices of all occurrences of the substring
-     */
-    public static int[] getIndices(String s, String sub) {
-        ArrayList<Integer> indices = new ArrayList<>();
-        int index = s.indexOf(sub);
-        while (index != -1) {
-            indices.add(index);
-            index = s.indexOf(sub, index + 1);
-        }
-        int[] result = new int[indices.size()];
-        for (int i = 0; i < indices.size(); i++) {
-            result[i] = indices.get(i);
-        }
-        return result;
     }
 
     /**
