@@ -26,3 +26,10 @@ Enter a number of steps:
 > 5
 The theorem is valid.
 ```
+```
+Enter a MIU theorem:
+> MUIIIUUIU
+Enter a number of steps:
+> 6
+The theorem could not be confirmed as valid.
+```
