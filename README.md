@@ -18,7 +18,7 @@ Any string resulting from applying these rules on the single axiom or a theorem 
 4. **xUUy** → **xy**
 
 ### Program Description
-Run the **Main** class
+#### Run the **Main** class
 #### Press **1** to Generate Theorems from a Provided Theorem
 The program takes in a theorem and performs any of the rules that can be applied to it, showing all possible theorems that can be derived in a single step. This does not validate the input theorem, so the results asre only valid if the input theorem is valid, but will be produced regardless.
 ```
@@ -72,3 +72,4 @@ Enter a MIU theorem: MUIIIUUIU
 Enter a number of steps: 6
 The theorem could not be confirmed as valid.
 ```
+#### Press **3** to Exit
